@@ -16,12 +16,12 @@
 */
 
 .pl-c /* comment */ {
-  color: #969896;
+  color: #235876;
 }
 
 .pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
 .pl-s .pl-v /* string variable */ {
-  color: #0086b3;
+  color: #0026b3;
 }
 
 .pl-e  /* entity */,
@@ -35,7 +35,7 @@
 }
 
 .pl-ent /* entity.name.tag */ {
-  color: #63a35c;
+  color: #63135c;
 }
 
 .pl-k /* keyword, storage, storage.type */ {
