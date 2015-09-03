@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px), screen and (max-device-width:  1200px) {
+html.desktop body.probably-mobile .wrapper, html.desktop .wrapper{ max-width: 100%;}
+html.mobi-menu .skdslider{ width: 100%;}
+html.mobi-menu{ width: 100%;}
+body.probably-mobile .wrapper{ width: 100%;}
+header > hgroup, .container{ width: 95%;}
+ul.slides > li, ul.slides{ width: 100% !important;}
+ul.slides > li > img{display: block; max-height: 100%; width: auto;}
+ul.slides > li > h2 br+br{ display: none;}
+}
+@media screen and (max-width: 1000px), screen and (max-device-width:  1000px) {
+hgroup nav > ul > li + li {margin: 0 0 0 16px;}
+hgroup nav > ul > li > a{padding: 8px 15px;}
+ul.slides > li > h2{ top: 17%; font-size: 20px; line-height: 43px;}
+}  
+@media screen and (max-width: 844px), screen and (max-device-width:  844px) {
+.header-top{ background: none;}
+header > hgroup, .container{ width: 93%;}
+footer > section aside:nth-child(1){ width: 48%;}
+footer > section aside:nth-child(2){ width: 48%; float: right; margin: 0;}
+footer > section aside:nth-child(3){ width: 48%; margin: 20px 0 0 0; clear: both;}
+footer > section aside:nth-child(4){ width: 48%; float: right; margin: 20px 0 0 0;}
+ul.slides > li, ul.slides, .slider-panel{ height: 300px !important;}
+.box-panel > ul > li > a > h3{ font-size: 16px;}
+.contact-dts aside{ width: 100%;}
+.contact-dts aside + aside{ width: 100%; float: left; margin: 25px 0 0 0;}
+}
+@media screen and (max-width: 790px), screen and (max-device-width:  790px) {
+.header-top{ position: relative;}
+.header-top nav > ul{ float: none; position: fixed; margin: 0; height: 100%; width: 100%;}
+.pushmenu { background: #15032e; width: 50%; height: 100%; top: 0; z-index: 1000; position:fixed;}
+.pushmenu a:hover {background:#00A287;}
+.pushmenu a:active {background: #454f5c; color: #fff;}
+.pushmenu-left {right: -50%;}
+.pushmenu-left.pushmenu-open {right: 0;}
+.pushmenu-push {overflow-x: hidden; position: relative; right: 0;}
+.pushmenu-push-toright {right:50%;}
+.pushmenu, .pushmenu-push {-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;transition: all 0.3s ease;}
+.header-top nav > ul > li{ clear: both; display: block; width: 50%;}
+.mobile-menu{ display: inline-block; background:#74a323; border-radius: 3px; position: absolute; z-index: 3; top: 30px; right: 0; padding: 0; cursor: pointer; width: auto;}
+.mobile-menu > label{ float: left; cursor: pointer; color:#FFF; margin: 12px 0 0; padding: 0 0 0 16px; text-transform: uppercase; font-family: 'Oswald', sans-serif;}
+.mobile-menu > ul{ padding: 14px 16px 14px 8px; margin: 0; float: right; cursor: pointer;}
+.mobile-menu > ul > li{ width: 30px; height: 3px; border-radius: 2px; background: #FFF; clear: both;}
+.mobile-menu.active > ul > li{background: #fff600;}
+.mobile-menu > ul > li+li{ margin-top: 5px;}
+.header-top nav > h3{ display: block; text-transform: uppercase; color:rgba(255,255,255,0.2); font-size: 19px; font-family: 'oswaldlight'; margin: 0; padding: 14px 16px 10px; background:#15032e;  line-height: normal;}
+.header-top nav > ul > li{ border-top: 1px solid rgba(0, 0, 0, 0.7);}
+.header-top nav > ul > li > a{ padding: 8px 16px; font-family: "roboto_c"; font-size: 15px; text-transform: capitalize; border-top: 1px solid rgba(255, 255, 255, 0.07); border-radius: 0; background: none; text-shadow: none; color: #fff;}
+.header-top nav > ul > li:hover > a, .header-top nav > ul > li.active > a{ background: rgba(0,0,0,0.3); color: #88cc14;}
+.header-top nav > ul > li:hover > a:after, .header-top nav > ul > li.active > a:after{ border: 0;}
+.content-panel > aside{ float: left; width: 100%; text-align: left;}
+.content-panel > aside+aside{ width: 100%; float: right; margin: 15px 0 0 0;}
+hgroup nav > ul > li + li{ margin: 0;}
+footer > section + section p + p.view-change{ float: left; width: 100%;}
+#escapeMobile, #returnMobile{ display: inline-block;}
+} 
+@media screen and (max-width: 660px), screen and (max-device-width:  660px) {
+.box-panel > ul{ display: inline-block; float: none; width: auto;}
+.box-panel > ul > li{ width: 100%; float: none;}
+.box-panel > ul > li > a > img{ margin: 0px auto; text-align: center;}
+.box-panel > ul > li + li{ margin: 20px 0 0 0;}
+ul.slides > li > h2{ width: 84%; left: 8%;}
+ul.slides > li > h2 > span{ font-size: 29px; line-height: 46px;}
+}
+@media screen and (max-width: 490px), screen and (max-device-width:  490px) {
+body{ font-size: 14px; line-height: 22px;}
+ul.slides > li > h2{ font-size: 18px; line-height: 38px;}
+h2.page-title{ font-size: 24px;}
+h2.page-sub-title{ font-size: 18px;}
+.accordion-toggle{ font-size: 15px;}
+.box-panel > ul{ width: 100%;}
+footer > section aside:nth-child(1), footer > section aside:nth-child(2), footer > section aside:nth-child(3), footer > section aside:nth-child(4){ width: 100%; clear: both; margin: 0;}
+footer > section aside:nth-child(2){ margin: 20px 0;}
+footer > section aside:nth-child(4){ margin: 20px 0 0;}
+footer > section + section p{ width: 100%; text-align: center;}
+.more-panel{ height: auto !important;}
+.more-panel + a{ display: none;}
+}
